@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ec.klecet.com.klecetbustrack.BusInfo"
+    tools:showIn="@layout/activity_bus_info">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="12dip"
+        android:background="#FF909090"
+        android:shrinkColumns="1,2,3,4"
+        android:stretchColumns="1,2,3,4">
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Bus Name"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Bus No"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Driver Name"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Mobile No"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:text="Kaveri"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+
+                android:text="B1"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+
+                android:text="Ashok Birje"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+
+                android:text="8971409894"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Krishna"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="B2"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Laxman Nikkam"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="9481403587"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Doodhganga"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="B3"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Khaji Saab"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="8105759731"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Ghataprabha"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="B4"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="M.P.Sankappagol"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="9591277651"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Malaprabha"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="B5"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Panduranga"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="7899116140"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </TableRow>
+
+        <TableRow
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Tungabhadra"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="B6"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="Nadaf"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:text="9901919087"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </TableRow>
+    </TableLayout>
+</android.support.v4.widget.NestedScrollView>
